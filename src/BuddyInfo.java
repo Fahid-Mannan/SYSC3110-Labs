@@ -5,10 +5,8 @@ public class BuddyInfo {
 	private String address;
 	private long phoneNum;
 	
-	private Map<String, BuddyInfo> addressBook;
 	
-	public BuddyInfo() { 
-		addressBook = new HashMap<>(); 
+	public BuddyInfo() {
 	}
 	
 	public String getName() {
