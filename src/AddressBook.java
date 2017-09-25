@@ -12,4 +12,12 @@ public class AddressBook {
 		System.out.println("Address Book");
 	}
 
+	public Map<String, BuddyInfo> getAddressBook() {
+		return addressBook;
+	}
+
+	public void setAddressBook(Map<String, BuddyInfo> addressBook) {
+		this.addressBook = addressBook;
+	}
+
 }
