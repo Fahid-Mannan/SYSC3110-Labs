@@ -8,6 +8,7 @@ public class AddressBook {
 	}
 	
 	
+	
 	public static void insert(BuddyInfo buddy) {
 		addressBook.put(buddy.getName(), buddy);
 	}
