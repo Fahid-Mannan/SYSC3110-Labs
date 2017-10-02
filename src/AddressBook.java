@@ -33,6 +33,8 @@ public class AddressBook {
 		
 		insert(buddy);
 		remove(buddy);
+		
+		System.out.println("Testing git pull...");
 	}
 	
 }
